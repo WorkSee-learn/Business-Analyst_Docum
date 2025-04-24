@@ -1,0 +1,7 @@
+Issue Type,Summary,Description,Priority,Story Points,Acceptance Criteria
+Story,Upload Prescription,"As a customer, I want to upload a valid prescription while placing an order so it can be reviewed for approval",High,3,"File upload works for PDF/JPG, validation triggers, file is visible to pharmacist"
+Story,Approve/Reject Prescription,"As a pharmacist, I want to view and approve/reject prescriptions to ensure only valid orders proceed",High,5,"Status changes to Approved/Rejected, user notified accordingly"
+Story,Assign Delivery Agent,"As a delivery coordinator, I want to assign delivery agents to approved orders so they can be dispatched",Medium,3,"Agent gets assigned, order status updated"
+Story,Receive Order Status Notifications,"As a customer, I want to get notified about order approval, dispatch, and delivery to stay informed",Medium,2,Email/SMS received at each stage
+Story,Inventory Threshold Alert,"As an admin, I want to receive alerts when stock is low so I can restock timely",High,3,Trigger alert when stock < threshold
+Story,View Role-Based Dashboard,"As any user, I want to see a customized dashboard view based on my role so I get relevant information",High,5,"Admin sees full access, others only relevant modules"
