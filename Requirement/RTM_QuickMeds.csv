@@ -1,0 +1,7 @@
+Requirement ID,User Story ID,FRD Ref,Test Case ID,Feature,Test Scenario,Status
+URS001,US001,F001,TC001,Upload Prescription,Open Upload Page,Pending
+URS002,US002,F002,TC002,Approve/Reject Prescription,Access Pharmacist Panel,Pending
+URS003,US004,F003,TC003,Order Notifications,Trigger Notification Event,Pending
+URS004,US003,F005,TC004,Assign Delivery Agent,Assign through dashboard,Pending
+URS005,US005,F004,TC005,Inventory Alert,Stock goes below threshold,Pending
+URS007,US006,F006,TC006,Role-Based Dashboard,Login as different roles,Pending

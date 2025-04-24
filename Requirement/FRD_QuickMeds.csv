@@ -1,0 +1,7 @@
+Function ID,Feature/Module,Description,Preconditions,Business Rules,Expected Result
+F001,Prescription Upload,Customers upload valid prescription files during order placement,User must be logged in,Accepted formats: PDF/JPG; max size: 5MB,"Upload page loads, file is previewed, Submit button enabled"
+F002,Prescription Approval,Pharmacists review prescriptions and approve/reject orders,Order exists; prescription valid,Only pharmacists can change approval status,"Status updated, customer notified"
+F003,Order Notification,Send SMS/email updates to customers for key order milestones,Contact info validated,"Triggered on approval, dispatch, and delivery",Email/SMS received at each event
+F004,Inventory Management,Admins manage medicine stock and receive low stock alerts,Admin login,Alert threshold set manually per item,Alert icon shown if stock below threshold
+F005,Delivery Assignment,Assign delivery agents to approved prescriptions,Order approved,Agents selected from available personnel,"Order status changes, agent notified"
+F006,Role-Based Dashboard,Different dashboards for user roles,User role identified,Access level based on user role,Only relevant features are visible to each role
